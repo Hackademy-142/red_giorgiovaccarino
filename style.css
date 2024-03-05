@@ -21,10 +21,65 @@ header li {
 }
 
 #hero {
-    /* background-image: url(./media/switzerland-862870_1920.jpg); */
-    background: linear-gradient(#ececec, rgba(#ffffff00)) !important;
+    position: relative;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
-#hero:first-child {
+#hero p {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: var(--primaryColor);
+    font-size: 5vw;
+    letter-spacing: 5vw;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+}
+
+#cervino {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#profilomontagne {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+    left: 0px;
+}
+
+#sfumatura {
+    background: linear-gradient(#ececec, rgba(255, 192, 203, 0));
+    position:absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#citazione {
+    width: 100%;
+    background-color: var(--bgColor);
+    padding: 50px 50vh;
+    color: gray;
+}
+
+#citazione p::before {
+    content: '"';
     color: var(--primaryColor);
 }
+
+#citazione p::after {
+    content: ',,';
+    color: var(--primaryColor);
+}
+
+.card img {
+    width: 30%;
+}
+
+
+
