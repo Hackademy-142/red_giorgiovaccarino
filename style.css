@@ -37,6 +37,9 @@ header li {
     padding: 0px;
     margin: 0px;
     z-index: 1;
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #cervino {
@@ -61,10 +64,11 @@ header li {
 }
 
 #citazione {
-    width: 100%;
+    
     background-color: var(--bgColor);
     padding: 50px 50vh;
     color: gray;
+    font-family: "Rajdhani", sans-serif;
 }
 
 #citazione p::before {
@@ -77,9 +81,41 @@ header li {
     color: var(--primaryColor);
 }
 
-.card img {
-    width: 30%;
+.bgGray {
+    background-color: var(--bgColor);
 }
 
+.attivitá {
+    background-color: inherit;
+    border: none;
+    border-bottom: 5px solid darkred !important;
+    border-radius: 0%;
+}
 
+#pallino {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid darkred;
+    position:relative;
+    bottom: -16px;
+    background-color: white;
+}
 
+#btnlorem {
+    background-color: darkred;
+    color: white;
+}
+
+#portaFoto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid darkred;
+}
+
+.team {
+    background-color: inherit;
+    border: none;
+    border-radius: 0%;
+}
